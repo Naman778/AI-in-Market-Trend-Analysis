@@ -1,0 +1,21 @@
+
+⚠️ **Important:**  
+The LSTM model can be implemented **directly using `Final_Returns.csv`**.  
+No additional preprocessing is required before model training, as all transformations
+described above have already been applied.
+
+## Methodology
+- Prices transformed into daily log returns
+- Multivariate time-series construction
+- Rolling input sequences for LSTM
+- Time-based train/test split to avoid look-ahead bias
+- Model evaluation using RMSE and directional accuracy
+
+## Repository Contents
+- `Minor_in_AI_Project.ipynb` – Main Jupyter notebook (run top-to-bottom)
+- `Final_Returns.csv` – Cleaned, preprocessed, and model-ready dataset
+- `README.md` – Project overview and instructions
+
+## Disclaimer
+This project is for **academic purposes only** and does not constitute financial or
+investment advice.
